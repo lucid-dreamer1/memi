@@ -3,41 +3,42 @@ import { useState } from "react";
 const galleryImages = [
   {
     id: 1,
-    src: "../../assets/gallery1.png",
+    src: "/assets/gallery1.png",
     alt: "Nail art elegante",
     category: "Nail Art",
   },
   {
     id: 2,
-    src: "../../assets/gallery2.png",
+    src: "/assets/gallery2.png",
     alt: "Manicure classica",
     category: "Manicure",
   },
   {
     id: 3,
-    src: "../../assets/gallery3.png",
+    src: "/assets/gallery3.png",
     alt: "Unghie gel",
     category: "Gel",
   },
   {
     id: 4,
-    src: "../../assets/gallery4.png",
+    src: "/assets/gallery4.png",
     alt: "French manicure",
     category: "French",
   },
   {
     id: 5,
-    src: "../../assets/gallery5.png",
+    src: "/assets/gallery5.png",
     alt: "Design creativo",
     category: "Nail Art",
   },
   {
     id: 6,
-    src: "../../assets/gallery6.png",
+    src: "/assets/gallery6.png",
     alt: "Colori naturali",
     category: "Natural",
   },
 ];
+
 
 const GallerySection = () => {
   const [hoveredId, setHoveredId] = useState<number | null>(null);
