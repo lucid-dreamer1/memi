@@ -1,6 +1,5 @@
 import { useState, useEffect } from "react";
 import { Menu, X } from "lucide-react";
-import logo from "../../assets/logo_memi.jpg";
 
 const navItems = [
   { name: "Home", href: "#home" },
@@ -45,7 +44,7 @@ const Navbar = () => {
           className="flex items-center"
         >
           <img
-            src={logo}
+            src="/assets/logo_memi.jpg"
             alt="Memi Nails logo"
             className="h-10 md:h-20 w-auto"
           />
